@@ -3,7 +3,7 @@
 #
 
 # Name of your site (displayed in the header)
-name: 我是谁并不重要
+name: DevJourney
 
 # Short bio or description (displayed in the header)
 description: self-motivated 
@@ -41,7 +41,7 @@ google_analytics:
 
 # Your website URL (e.g. http://barryclark.github.io or http://www.barryclark.co)
 # Used for Sitemap.xml and your RSS feed
-url:
+url: https://pxisbest.github.io
 
 # If you're hosting your site at a Project repository on GitHub pages
 # (http://yourusername.github.io/repository-name)
@@ -74,9 +74,9 @@ sass:
 
 # Use the following plug-ins
 gems:
-  - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
-  - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
-
+  # - jekyll-sitemap # Create a sitemap using the official Jekyll sitemap gem
+  # - jekyll-feed # Create an Atom feed using the official Jekyll feed gem
+  gem "github-pages", group: :jekyll_plugins
 # Exclude these files from your production _site
 exclude:
   - Gemfile
